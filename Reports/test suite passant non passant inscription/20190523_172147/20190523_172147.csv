@@ -1,0 +1,100 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test suite passant non passant inscription,Firefox 66.0,,2019-05-23 17:21:49,2019-05-23 17:22:41,"51,835s",PASSED
+,,,,,,
+Test Cases/demowebshop npassant email manquant,Firefox 66.0,,2019-05-23 17:21:50,2019-05-23 17:22:02,"12,297s",PASSED
+rand = new java.util.Random(),Firefox 66.0,,2019-05-23 17:21:50,2019-05-23 17:21:50,"0,002s",PASSED
+min = 10,Firefox 66.0,,2019-05-23 17:21:50,2019-05-23 17:21:50,"0,000s",PASSED
+max = 200,Firefox 66.0,,2019-05-23 17:21:50,2019-05-23 17:21:50,"0,000s",PASSED
+result = rand.nextFloat() * max - min + min,Firefox 66.0,,2019-05-23 17:21:50,2019-05-23 17:21:50,"0,000s",PASSED
+println(result),Firefox 66.0,,2019-05-23 17:21:50,2019-05-23 17:21:50,"0,015s",PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-23 17:21:50,2019-05-23 17:21:56,"6,070s",PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Firefox 66.0,,2019-05-23 17:21:56,2019-05-23 17:21:58,"1,529s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Register""))",Firefox 66.0,,2019-05-23 17:21:58,2019-05-23 17:21:58,"0,543s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Gender_Gender (1)""))",Firefox 66.0,,2019-05-23 17:21:58,2019-05-23 17:21:58,"0,253s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Male_Gender (1)""))",Firefox 66.0,,2019-05-23 17:21:58,2019-05-23 17:21:59,"0,251s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_First name_FirstName (1)""), findTestData(""test"").getValue(1, 1))",Firefox 66.0,,2019-05-23 17:21:59,2019-05-23 17:21:59,"0,761s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Last name_LastName (1)""), findTestData(""test"").getValue(1, 2))",Firefox 66.0,,2019-05-23 17:21:59,2019-05-23 17:21:59,"0,082s",PASSED
+"setText(findTestObject(""Page_Demo Web Shop. Register/input_Email_Email (1)""), """")",Firefox 66.0,,2019-05-23 17:21:59,2019-05-23 17:21:59,"0,039s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Password_Password (1)""), ""DnK1SUDm1noeoE8V9MLX/Q=="")",Firefox 66.0,,2019-05-23 17:21:59,2019-05-23 17:22:00,"0,094s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword (1)""), ""DnK1SUDm1noeoE8V9MLX/Q=="")",Firefox 66.0,,2019-05-23 17:22:00,2019-05-23 17:22:00,"0,038s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input__register-button""))",Firefox 66.0,,2019-05-23 17:22:00,2019-05-23 17:22:00,"0,253s",PASSED
+takeScreenshot(),Firefox 66.0,,2019-05-23 17:22:00,2019-05-23 17:22:00,"0,097s",PASSED
+closeBrowser(),Firefox 66.0,,2019-05-23 17:22:00,2019-05-23 17:22:02,"1,865s",PASSED
+,,,,,,
+Test Cases/demowebshop npassant mdp manquant,Firefox 66.0,,2019-05-23 17:22:02,2019-05-23 17:22:12,"10,593s",PASSED
+rand = new java.util.Random(),Firefox 66.0,,2019-05-23 17:22:02,2019-05-23 17:22:02,"0,004s",PASSED
+min = 10,Firefox 66.0,,2019-05-23 17:22:02,2019-05-23 17:22:02,"0,000s",PASSED
+max = 200,Firefox 66.0,,2019-05-23 17:22:02,2019-05-23 17:22:02,"0,000s",PASSED
+result = rand.nextFloat() * max - min + min,Firefox 66.0,,2019-05-23 17:22:02,2019-05-23 17:22:02,"0,000s",PASSED
+println(result),Firefox 66.0,,2019-05-23 17:22:02,2019-05-23 17:22:02,"0,000s",PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-23 17:22:02,2019-05-23 17:22:07,"4,672s",PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Firefox 66.0,,2019-05-23 17:22:07,2019-05-23 17:22:08,"1,394s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Register""))",Firefox 66.0,,2019-05-23 17:22:08,2019-05-23 17:22:09,"0,488s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Gender_Gender (1)""))",Firefox 66.0,,2019-05-23 17:22:09,2019-05-23 17:22:09,"0,233s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Male_Gender (1)""))",Firefox 66.0,,2019-05-23 17:22:09,2019-05-23 17:22:09,"0,229s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_First name_FirstName (1)""), findTestData(""test"").getValue(1, 1))",Firefox 66.0,,2019-05-23 17:22:09,2019-05-23 17:22:09,"0,078s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Last name_LastName (1)""), findTestData(""test"").getValue(1, 2))",Firefox 66.0,,2019-05-23 17:22:09,2019-05-23 17:22:09,"0,082s",PASSED
+"setText(findTestObject(""Page_Demo Web Shop. Register/input_Email_Email (1)""), result + ""@yopmail.com"")",Firefox 66.0,,2019-05-23 17:22:09,2019-05-23 17:22:09,"0,047s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword (1)""), ""DnK1SUDm1noeoE8V9MLX/Q=="")",Firefox 66.0,,2019-05-23 17:22:09,2019-05-23 17:22:09,"0,048s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input__register-button""))",Firefox 66.0,,2019-05-23 17:22:09,2019-05-23 17:22:10,"0,250s",PASSED
+takeScreenshot(),Firefox 66.0,,2019-05-23 17:22:10,2019-05-23 17:22:10,"0,068s",PASSED
+closeBrowser(),Firefox 66.0,,2019-05-23 17:22:10,2019-05-23 17:22:12,"2,657s",PASSED
+,,,,,,
+Test Cases/demowebshop npassant nom manquant,Firefox 66.0,,2019-05-23 17:22:12,2019-05-23 17:22:22,"9,754s",PASSED
+rand = new java.util.Random(),Firefox 66.0,,2019-05-23 17:22:13,2019-05-23 17:22:13,"0,000s",PASSED
+min = 10,Firefox 66.0,,2019-05-23 17:22:13,2019-05-23 17:22:13,"0,000s",PASSED
+max = 200,Firefox 66.0,,2019-05-23 17:22:13,2019-05-23 17:22:13,"0,000s",PASSED
+result = rand.nextFloat() * max - min + min,Firefox 66.0,,2019-05-23 17:22:13,2019-05-23 17:22:13,"0,000s",PASSED
+println(result),Firefox 66.0,,2019-05-23 17:22:13,2019-05-23 17:22:13,"0,000s",PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-23 17:22:13,2019-05-23 17:22:17,"4,081s",PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Firefox 66.0,,2019-05-23 17:22:17,2019-05-23 17:22:19,"1,966s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Register""))",Firefox 66.0,,2019-05-23 17:22:19,2019-05-23 17:22:19,"0,511s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Gender_Gender (1)""))",Firefox 66.0,,2019-05-23 17:22:19,2019-05-23 17:22:19,"0,240s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Male_Gender (1)""))",Firefox 66.0,,2019-05-23 17:22:19,2019-05-23 17:22:20,"0,237s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_First name_FirstName (1)""), """")",Firefox 66.0,,2019-05-23 17:22:20,2019-05-23 17:22:20,"0,055s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Last name_LastName (1)""), findTestData(""test"").getValue(1, 2))",Firefox 66.0,,2019-05-23 17:22:20,2019-05-23 17:22:20,"0,071s",PASSED
+"setText(findTestObject(""Page_Demo Web Shop. Register/input_Email_Email (1)""), result + ""@yopmail.com"")",Firefox 66.0,,2019-05-23 17:22:20,2019-05-23 17:22:20,"0,051s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Password_Password (1)""), ""DnK1SUDm1noeoE8V9MLX/Q=="")",Firefox 66.0,,2019-05-23 17:22:20,2019-05-23 17:22:20,"0,046s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword (1)""), ""DnK1SUDm1noeoE8V9MLX/Q=="")",Firefox 66.0,,2019-05-23 17:22:20,2019-05-23 17:22:20,"0,038s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input__register-button""))",Firefox 66.0,,2019-05-23 17:22:20,2019-05-23 17:22:20,"0,250s",PASSED
+takeScreenshot(),Firefox 66.0,,2019-05-23 17:22:20,2019-05-23 17:22:20,"0,063s",PASSED
+closeBrowser(),Firefox 66.0,,2019-05-23 17:22:20,2019-05-23 17:22:22,"1,937s",PASSED
+,,,,,,
+Test Cases/demowebshop npassant prenom manquant,Firefox 66.0,,2019-05-23 17:22:22,2019-05-23 17:22:32,"9,420s",PASSED
+rand = new java.util.Random(),Firefox 66.0,,2019-05-23 17:22:22,2019-05-23 17:22:22,"0,000s",PASSED
+min = 10,Firefox 66.0,,2019-05-23 17:22:22,2019-05-23 17:22:22,"0,000s",PASSED
+max = 200,Firefox 66.0,,2019-05-23 17:22:22,2019-05-23 17:22:22,"0,000s",PASSED
+result = rand.nextFloat() * max - min + min,Firefox 66.0,,2019-05-23 17:22:22,2019-05-23 17:22:22,"0,000s",PASSED
+println(result),Firefox 66.0,,2019-05-23 17:22:22,2019-05-23 17:22:22,"0,000s",PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-23 17:22:22,2019-05-23 17:22:26,"3,990s",PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Firefox 66.0,,2019-05-23 17:22:26,2019-05-23 17:22:28,"1,400s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Register""))",Firefox 66.0,,2019-05-23 17:22:28,2019-05-23 17:22:28,"0,516s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Gender_Gender (1)""))",Firefox 66.0,,2019-05-23 17:22:28,2019-05-23 17:22:29,"0,232s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Male_Gender (1)""))",Firefox 66.0,,2019-05-23 17:22:29,2019-05-23 17:22:29,"0,236s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_First name_FirstName (1)""), findTestData(""test"").getValue(1, 1))",Firefox 66.0,,2019-05-23 17:22:29,2019-05-23 17:22:29,"0,085s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Last name_LastName (1)""), """")",Firefox 66.0,,2019-05-23 17:22:29,2019-05-23 17:22:29,"0,043s",PASSED
+"setText(findTestObject(""Page_Demo Web Shop. Register/input_Email_Email (1)""), result + ""@yopmail.com"")",Firefox 66.0,,2019-05-23 17:22:29,2019-05-23 17:22:29,"0,044s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Password_Password (1)""), ""DnK1SUDm1noeoE8V9MLX/Q=="")",Firefox 66.0,,2019-05-23 17:22:29,2019-05-23 17:22:29,"0,046s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword (1)""), ""DnK1SUDm1noeoE8V9MLX/Q=="")",Firefox 66.0,,2019-05-23 17:22:29,2019-05-23 17:22:29,"0,038s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input__register-button""))",Firefox 66.0,,2019-05-23 17:22:29,2019-05-23 17:22:29,"0,248s",PASSED
+takeScreenshot(),Firefox 66.0,,2019-05-23 17:22:29,2019-05-23 17:22:29,"0,064s",PASSED
+closeBrowser(),Firefox 66.0,,2019-05-23 17:22:29,2019-05-23 17:22:32,"2,259s",PASSED
+,,,,,,
+Test Cases/demowebshop test passant inscription,Firefox 66.0,,2019-05-23 17:22:32,2019-05-23 17:22:41,"9,513s",PASSED
+rand = new java.util.Random(),Firefox 66.0,,2019-05-23 17:22:32,2019-05-23 17:22:32,"0,000s",PASSED
+min = 10,Firefox 66.0,,2019-05-23 17:22:32,2019-05-23 17:22:32,"0,000s",PASSED
+max = 200,Firefox 66.0,,2019-05-23 17:22:32,2019-05-23 17:22:32,"0,000s",PASSED
+result = rand.nextFloat() * max - min + min,Firefox 66.0,,2019-05-23 17:22:32,2019-05-23 17:22:32,"0,000s",PASSED
+println(result),Firefox 66.0,,2019-05-23 17:22:32,2019-05-23 17:22:32,"0,000s",PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-23 17:22:32,2019-05-23 17:22:36,"4,008s",PASSED
+"navigateToUrl(""http://demowebshop.tricentis.com/"")",Firefox 66.0,,2019-05-23 17:22:36,2019-05-23 17:22:37,"1,586s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Register""))",Firefox 66.0,,2019-05-23 17:22:37,2019-05-23 17:22:38,"0,450s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Gender_Gender (1)""))",Firefox 66.0,,2019-05-23 17:22:38,2019-05-23 17:22:38,"0,234s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Male_Gender (1)""))",Firefox 66.0,,2019-05-23 17:22:38,2019-05-23 17:22:38,"0,305s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_First name_FirstName (1)""), findTestData(""test"").getValue(1, 1))",Firefox 66.0,,2019-05-23 17:22:38,2019-05-23 17:22:38,"0,071s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Last name_LastName (1)""), findTestData(""test"").getValue(1, 2))",Firefox 66.0,,2019-05-23 17:22:38,2019-05-23 17:22:39,"0,066s",PASSED
+"setText(findTestObject(""Page_Demo Web Shop. Register/input_Email_Email (1)""), result + ""@yopmail.com"")",Firefox 66.0,,2019-05-23 17:22:39,2019-05-23 17:22:39,"0,051s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Password_Password (1)""), ""DnK1SUDm1noeoE8V9MLX/Q=="")",Firefox 66.0,,2019-05-23 17:22:39,2019-05-23 17:22:39,"0,045s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input_Confirm password_ConfirmPassword (1)""), ""DnK1SUDm1noeoE8V9MLX/Q=="")",Firefox 66.0,,2019-05-23 17:22:39,2019-05-23 17:22:39,"0,037s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Register/input__register-button""))",Firefox 66.0,,2019-05-23 17:22:39,2019-05-23 17:22:40,"0,877s",PASSED
+closeBrowser(),Firefox 66.0,,2019-05-23 17:22:40,2019-05-23 17:22:41,"1,550s",PASSED
